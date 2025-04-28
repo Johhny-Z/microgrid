@@ -1,0 +1,425 @@
+sep=,
+time,model_id,model_name,port_name,data
+0,1,demand_src,,0
+0,2,wind_speed_src,,0
+0,3,storage,,{stored:500kWh, balance:1,demand:0KW}
+0,4,irradiance_src,,0
+0,6,wind,,Power: 0
+0,7,solar,,Power: 0
+0,1,demand_src,out,100
+0,1,demand_src,,1
+0,2,wind_speed_src,out,3.2
+0,2,wind_speed_src,,1
+0,3,storage,outStatus,1
+0,3,storage,,{stored:400kWh, balance:0.4,demand:100KW}
+0,4,irradiance_src,out,0
+0,4,irradiance_src,,1
+0,6,wind,power_out,0
+0,6,wind,,Power: 63.0211
+0,7,solar,power_out,0
+0,7,solar,,Power: 0
+0,3,storage,outStatus,0.4
+0,3,storage,,{stored:363.021kWh, balance:0.363021,demand:100KW}
+0,6,wind,power_out,63.0211
+0,6,wind,,Power: 63.0211
+0,7,solar,power_out,0
+0,7,solar,,Power: 0
+0,3,storage,outStatus,0.363021
+0,3,storage,,{stored:363.021kWh, balance:0.363021,demand:100KW}
+1,1,demand_src,out,110
+1,1,demand_src,,1
+1,2,wind_speed_src,out,3.5
+1,2,wind_speed_src,,1
+1,3,storage,,{stored:363.021kWh, balance:0.363021,demand:110KW}
+1,4,irradiance_src,out,0
+1,4,irradiance_src,,1
+1,6,wind,,Power: 82.4593
+1,7,solar,,Power: 0
+1,3,storage,outStatus,0.363021
+1,3,storage,,{stored:335.48kWh, balance:0.33548,demand:110KW}
+1,6,wind,power_out,82.4593
+1,6,wind,,Power: 82.4593
+1,7,solar,power_out,0
+1,7,solar,,Power: 0
+1,3,storage,outStatus,0.33548
+1,3,storage,,{stored:335.48kWh, balance:0.33548,demand:110KW}
+2,1,demand_src,out,120
+2,1,demand_src,,1
+2,2,wind_speed_src,out,3.8
+2,2,wind_speed_src,,1
+2,3,storage,,{stored:335.48kWh, balance:0.33548,demand:120KW}
+2,4,irradiance_src,out,0
+2,4,irradiance_src,,1
+2,6,wind,,Power: 105.533
+2,7,solar,,Power: 0
+2,3,storage,outStatus,0.33548
+2,3,storage,,{stored:321.013kWh, balance:0.321013,demand:120KW}
+2,6,wind,power_out,105.533
+2,6,wind,,Power: 105.533
+2,7,solar,power_out,0
+2,7,solar,,Power: 0
+2,3,storage,outStatus,0.321013
+2,3,storage,,{stored:321.013kWh, balance:0.321013,demand:120KW}
+3,1,demand_src,out,130
+3,1,demand_src,,1
+3,2,wind_speed_src,out,4.1
+3,2,wind_speed_src,,1
+3,3,storage,,{stored:321.013kWh, balance:0.321013,demand:130KW}
+3,4,irradiance_src,out,0
+3,4,irradiance_src,,1
+3,6,wind,,Power: 132.552
+3,7,solar,,Power: 0
+3,3,storage,outStatus,0.321013
+3,3,storage,,{stored:323.565kWh, balance:0.323565,demand:130KW}
+3,6,wind,power_out,132.552
+3,6,wind,,Power: 132.552
+3,7,solar,power_out,0
+3,7,solar,,Power: 0
+3,3,storage,outStatus,0.323565
+3,3,storage,,{stored:323.565kWh, balance:0.323565,demand:130KW}
+4,1,demand_src,out,145
+4,1,demand_src,,1
+4,2,wind_speed_src,out,4.4
+4,2,wind_speed_src,,1
+4,3,storage,,{stored:323.565kWh, balance:0.323565,demand:145KW}
+4,4,irradiance_src,out,150
+4,4,irradiance_src,,1
+4,6,wind,,Power: 163.83
+4,7,solar,,Power: 27
+4,3,storage,outStatus,0.323565
+4,3,storage,,{stored:369.395kWh, balance:0.369395,demand:145KW}
+4,6,wind,power_out,163.83
+4,6,wind,,Power: 163.83
+4,7,solar,power_out,27
+4,7,solar,,Power: 27
+4,3,storage,outStatus,0.369395
+4,3,storage,,{stored:369.395kWh, balance:0.369395,demand:145KW}
+5,1,demand_src,out,160
+5,1,demand_src,,1
+5,2,wind_speed_src,out,4.8
+5,2,wind_speed_src,,1
+5,3,storage,,{stored:369.395kWh, balance:0.369395,demand:160KW}
+5,4,irradiance_src,out,450
+5,4,irradiance_src,,1
+5,6,wind,,Power: 212.696
+5,7,solar,,Power: 81
+5,3,storage,outStatus,0.369395
+5,3,storage,,{stored:503.091kWh, balance:0.503091,demand:160KW}
+5,6,wind,power_out,212.696
+5,6,wind,,Power: 212.696
+5,7,solar,power_out,81
+5,7,solar,,Power: 81
+5,3,storage,outStatus,0.503091
+5,3,storage,,{stored:503.091kWh, balance:0.503091,demand:160KW}
+6,1,demand_src,out,200
+6,1,demand_src,,1
+6,2,wind_speed_src,out,5
+6,2,wind_speed_src,,1
+6,3,storage,,{stored:503.091kWh, balance:0.503091,demand:200KW}
+6,4,irradiance_src,out,1200
+6,4,irradiance_src,,1
+6,6,wind,,Power: 240.406
+6,7,solar,,Power: 216
+6,3,storage,outStatus,0.503091
+6,3,storage,,{stored:759.498kWh, balance:0.759498,demand:200KW}
+6,6,wind,power_out,240.406
+6,6,wind,,Power: 240.406
+6,7,solar,power_out,216
+6,7,solar,,Power: 216
+6,3,storage,outStatus,0.759498
+6,3,storage,,{stored:759.498kWh, balance:0.759498,demand:200KW}
+7,1,demand_src,out,220
+7,1,demand_src,,1
+7,2,wind_speed_src,out,5.6
+7,2,wind_speed_src,,1
+7,3,storage,,{stored:759.498kWh, balance:0.759498,demand:220KW}
+7,4,irradiance_src,out,1550
+7,4,irradiance_src,,1
+7,6,wind,,Power: 337.753
+7,7,solar,,Power: 279
+7,3,storage,outStatus,0.759498
+7,3,storage,,{stored:1000kWh, balance:1,demand:220KW}
+7,6,wind,power_out,337.753
+7,6,wind,,Power: 337.753
+7,7,solar,power_out,279
+7,7,solar,,Power: 279
+7,3,storage,outStatus,1
+7,3,storage,,{stored:1000kWh, balance:1,demand:220KW}
+8,1,demand_src,out,240
+8,1,demand_src,,1
+8,2,wind_speed_src,out,6.3
+8,2,wind_speed_src,,1
+8,3,storage,,{stored:1000kWh, balance:1,demand:240KW}
+8,4,irradiance_src,out,1800
+8,4,irradiance_src,,1
+8,6,wind,,Power: 480.903
+8,7,solar,,Power: 324
+8,3,storage,outStatus,1
+8,3,storage,,{stored:1000kWh, balance:1,demand:240KW}
+8,6,wind,power_out,480.903
+8,6,wind,,Power: 480.903
+8,7,solar,power_out,324
+8,7,solar,,Power: 324
+8,3,storage,outStatus,1
+8,3,storage,,{stored:1000kWh, balance:1,demand:240KW}
+9,1,demand_src,out,260
+9,1,demand_src,,1
+9,2,wind_speed_src,out,6.9
+9,2,wind_speed_src,,1
+9,3,storage,,{stored:1000kWh, balance:1,demand:260KW}
+9,4,irradiance_src,out,1950
+9,4,irradiance_src,,1
+9,6,wind,,Power: 631.805
+9,7,solar,,Power: 351
+9,3,storage,outStatus,1
+9,3,storage,,{stored:1000kWh, balance:1,demand:260KW}
+9,6,wind,power_out,631.805
+9,6,wind,,Power: 631.805
+9,7,solar,power_out,351
+9,7,solar,,Power: 351
+9,3,storage,outStatus,1
+9,3,storage,,{stored:1000kWh, balance:1,demand:260KW}
+10,1,demand_src,out,275
+10,1,demand_src,,1
+10,2,wind_speed_src,out,7.5
+10,2,wind_speed_src,,1
+10,3,storage,,{stored:1000kWh, balance:1,demand:275KW}
+10,4,irradiance_src,out,2050
+10,4,irradiance_src,,1
+10,6,wind,,Power: 811.371
+10,7,solar,,Power: 369
+10,3,storage,outStatus,1
+10,3,storage,,{stored:1000kWh, balance:1,demand:275KW}
+10,6,wind,power_out,811.371
+10,6,wind,,Power: 811.371
+10,7,solar,power_out,369
+10,7,solar,,Power: 369
+10,3,storage,outStatus,1
+10,3,storage,,{stored:1000kWh, balance:1,demand:275KW}
+11,1,demand_src,out,290
+11,1,demand_src,,1
+11,2,wind_speed_src,out,7.8
+11,2,wind_speed_src,,1
+11,3,storage,,{stored:1000kWh, balance:1,demand:290KW}
+11,4,irradiance_src,out,2100
+11,4,irradiance_src,,1
+11,6,wind,,Power: 912.682
+11,7,solar,,Power: 378
+11,3,storage,outStatus,1
+11,3,storage,,{stored:1000kWh, balance:1,demand:290KW}
+11,6,wind,power_out,912.682
+11,6,wind,,Power: 912.682
+11,7,solar,power_out,378
+11,7,solar,,Power: 378
+11,3,storage,outStatus,1
+11,3,storage,,{stored:1000kWh, balance:1,demand:290KW}
+12,1,demand_src,out,300
+12,1,demand_src,,1
+12,2,wind_speed_src,out,8
+12,2,wind_speed_src,,1
+12,3,storage,,{stored:1000kWh, balance:1,demand:300KW}
+12,4,irradiance_src,out,2000
+12,4,irradiance_src,,1
+12,6,wind,,Power: 984.704
+12,7,solar,,Power: 360
+12,3,storage,outStatus,1
+12,3,storage,,{stored:1000kWh, balance:1,demand:300KW}
+12,6,wind,power_out,984.704
+12,6,wind,,Power: 984.704
+12,7,solar,power_out,360
+12,7,solar,,Power: 360
+12,3,storage,outStatus,1
+12,3,storage,,{stored:1000kWh, balance:1,demand:300KW}
+13,1,demand_src,out,320
+13,1,demand_src,,1
+13,2,wind_speed_src,out,7.5
+13,2,wind_speed_src,,1
+13,3,storage,,{stored:1000kWh, balance:1,demand:320KW}
+13,4,irradiance_src,out,1850
+13,4,irradiance_src,,1
+13,6,wind,,Power: 811.371
+13,7,solar,,Power: 333
+13,3,storage,outStatus,1
+13,3,storage,,{stored:1000kWh, balance:1,demand:320KW}
+13,6,wind,power_out,811.371
+13,6,wind,,Power: 811.371
+13,7,solar,power_out,333
+13,7,solar,,Power: 333
+13,3,storage,outStatus,1
+13,3,storage,,{stored:1000kWh, balance:1,demand:320KW}
+14,1,demand_src,out,340
+14,1,demand_src,,1
+14,2,wind_speed_src,out,6.8
+14,2,wind_speed_src,,1
+14,3,storage,,{stored:1000kWh, balance:1,demand:340KW}
+14,4,irradiance_src,out,1600
+14,4,irradiance_src,,1
+14,6,wind,,Power: 604.731
+14,7,solar,,Power: 288
+14,3,storage,outStatus,1
+14,3,storage,,{stored:1000kWh, balance:1,demand:340KW}
+14,6,wind,power_out,604.731
+14,6,wind,,Power: 604.731
+14,7,solar,power_out,288
+14,7,solar,,Power: 288
+14,3,storage,outStatus,1
+14,3,storage,,{stored:1000kWh, balance:1,demand:340KW}
+15,1,demand_src,out,360
+15,1,demand_src,,1
+15,2,wind_speed_src,out,6
+15,2,wind_speed_src,,1
+15,3,storage,,{stored:1000kWh, balance:1,demand:360KW}
+15,4,irradiance_src,out,1250
+15,4,irradiance_src,,1
+15,6,wind,,Power: 415.422
+15,7,solar,,Power: 225
+15,3,storage,outStatus,1
+15,3,storage,,{stored:1000kWh, balance:1,demand:360KW}
+15,6,wind,power_out,415.422
+15,6,wind,,Power: 415.422
+15,7,solar,power_out,225
+15,7,solar,,Power: 225
+15,3,storage,outStatus,1
+15,3,storage,,{stored:1000kWh, balance:1,demand:360KW}
+16,1,demand_src,out,380
+16,1,demand_src,,1
+16,2,wind_speed_src,out,5.2
+16,2,wind_speed_src,,1
+16,3,storage,,{stored:1000kWh, balance:1,demand:380KW}
+16,4,irradiance_src,out,800
+16,4,irradiance_src,,1
+16,6,wind,,Power: 270.424
+16,7,solar,,Power: 144
+16,3,storage,outStatus,1
+16,3,storage,,{stored:1000kWh, balance:1,demand:380KW}
+16,6,wind,power_out,270.424
+16,6,wind,,Power: 270.424
+16,7,solar,power_out,144
+16,7,solar,,Power: 144
+16,3,storage,outStatus,1
+16,3,storage,,{stored:1000kWh, balance:1,demand:380KW}
+17,1,demand_src,out,400
+17,1,demand_src,,1
+17,2,wind_speed_src,out,4.5
+17,2,wind_speed_src,,1
+17,3,storage,,{stored:1000kWh, balance:1,demand:400KW}
+17,4,irradiance_src,out,400
+17,4,irradiance_src,,1
+17,6,wind,,Power: 175.256
+17,7,solar,,Power: 72
+17,3,storage,outStatus,1
+17,3,storage,,{stored:847.256kWh, balance:0.847256,demand:400KW}
+17,6,wind,power_out,175.256
+17,6,wind,,Power: 175.256
+17,7,solar,power_out,72
+17,7,solar,,Power: 72
+17,3,storage,outStatus,0.847256
+17,3,storage,,{stored:847.256kWh, balance:0.847256,demand:400KW}
+18,1,demand_src,out,420
+18,1,demand_src,,1
+18,2,wind_speed_src,out,4
+18,2,wind_speed_src,,1
+18,3,storage,,{stored:847.256kWh, balance:0.847256,demand:420KW}
+18,4,irradiance_src,out,800
+18,4,irradiance_src,,1
+18,6,wind,,Power: 123.088
+18,7,solar,,Power: 144
+18,3,storage,outStatus,0.847256
+18,3,storage,,{stored:694.344kWh, balance:0.694344,demand:420KW}
+18,6,wind,power_out,123.088
+18,6,wind,,Power: 123.088
+18,7,solar,power_out,144
+18,7,solar,,Power: 144
+18,3,storage,outStatus,0.694344
+18,3,storage,,{stored:694.344kWh, balance:0.694344,demand:420KW}
+19,1,demand_src,out,440
+19,1,demand_src,,1
+19,2,wind_speed_src,out,3.4
+19,2,wind_speed_src,,1
+19,3,storage,,{stored:694.344kWh, balance:0.694344,demand:440KW}
+19,4,irradiance_src,out,600
+19,4,irradiance_src,,1
+19,6,wind,,Power: 75.5914
+19,7,solar,,Power: 108
+19,3,storage,outStatus,0.694344
+19,3,storage,,{stored:437.936kWh, balance:0.437936,demand:440KW}
+19,6,wind,power_out,75.5914
+19,6,wind,,Power: 75.5914
+19,7,solar,power_out,108
+19,7,solar,,Power: 108
+19,3,storage,outStatus,0.437936
+19,3,storage,,{stored:437.936kWh, balance:0.437936,demand:440KW}
+20,1,demand_src,out,460
+20,1,demand_src,,1
+20,2,wind_speed_src,out,2.9
+20,2,wind_speed_src,,1
+20,3,storage,,{stored:437.936kWh, balance:0.437936,demand:460KW}
+20,4,irradiance_src,out,350
+20,4,irradiance_src,,1
+20,6,wind,,Power: 46.9061
+20,7,solar,,Power: 63
+20,3,storage,outStatus,0.437936
+20,3,storage,,{stored:87.8417kWh, balance:0.0878417,demand:460KW}
+20,6,wind,power_out,46.9061
+20,6,wind,,Power: 46.9061
+20,7,solar,power_out,63
+20,7,solar,,Power: 63
+20,3,storage,outStatus,0.0878417
+20,3,storage,,{stored:87.8417kWh, balance:0.0878417,demand:460KW}
+21,1,demand_src,out,480
+21,1,demand_src,,1
+21,2,wind_speed_src,out,2.5
+21,2,wind_speed_src,,1
+21,3,storage,,{stored:87.8417kWh, balance:0.0878417,demand:480KW}
+21,4,irradiance_src,out,100
+21,4,irradiance_src,,1
+21,6,wind,,Power: 30.0508
+21,7,solar,,Power: 18
+21,3,storage,outStatus,0.0878417
+21,3,storage,,{stored:0kWh, balance:0,demand:480KW}
+21,6,wind,power_out,30.0508
+21,6,wind,,Power: 30.0508
+21,7,solar,power_out,18
+21,7,solar,,Power: 18
+21,3,storage,outStatus,0
+21,3,storage,,{stored:0kWh, balance:0,demand:480KW}
+22,1,demand_src,out,495
+22,1,demand_src,,1
+22,2,wind_speed_src,out,2.2
+22,2,wind_speed_src,,1
+22,3,storage,,{stored:0kWh, balance:0,demand:495KW}
+22,4,irradiance_src,out,0
+22,4,irradiance_src,,1
+22,6,wind,,Power: 20.4788
+22,7,solar,,Power: 0
+22,3,storage,outStatus,0
+22,3,storage,,{stored:0kWh, balance:0,demand:495KW}
+22,6,wind,power_out,20.4788
+22,6,wind,,Power: 20.4788
+22,7,solar,power_out,0
+22,7,solar,,Power: 0
+22,3,storage,outStatus,0
+22,3,storage,,{stored:0kWh, balance:0,demand:495KW}
+23,1,demand_src,out,500
+23,1,demand_src,,1
+23,2,wind_speed_src,out,2
+23,2,wind_speed_src,,1
+23,3,storage,,{stored:0kWh, balance:0,demand:500KW}
+23,4,irradiance_src,out,0
+23,4,irradiance_src,,1
+23,6,wind,,Power: 15.386
+23,7,solar,,Power: 0
+23,3,storage,outStatus,0
+23,3,storage,,{stored:0kWh, balance:0,demand:500KW}
+23,6,wind,power_out,15.386
+23,6,wind,,Power: 15.386
+23,7,solar,power_out,0
+23,7,solar,,Power: 0
+23,3,storage,outStatus,0
+23,3,storage,,{stored:0kWh, balance:0,demand:500KW}
+23,1,demand_src,,1
+23,2,wind_speed_src,,1
+23,3,storage,,{stored:0kWh, balance:0,demand:500KW}
+23,4,irradiance_src,,1
+23,6,wind,,Power: 15.386
+23,7,solar,,Power: 0

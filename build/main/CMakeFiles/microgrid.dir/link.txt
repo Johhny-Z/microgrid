@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/microgrid.dir/main_microgrid.cpp.o -o /home/jingqizhang/microgrid/bin/microgrid 
